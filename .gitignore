@@ -1,5 +1,6 @@
 ##Folders
 target
 .settings
+out
 ##file
 .classpath

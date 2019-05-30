@@ -1,0 +1,30 @@
+#普通数据的配置，中间需要一个空格 使用空格代替层级关系
+name: zhangsan
+#配置对象数据
+person:
+  name: zhangsan
+  age: 18
+  addr: bj
+server:
+  port: 8082
+#行内对象配置
+person2: {name: zhangsan,age: 13,addr: nj}
+#集合配置
+city:
+  - bj
+  - cq
+  - sh
+  - tj
+city2: [bj,tj,cj,sh]
+student:
+  - name: tom
+    age: 12
+    addr: tj
+  - name: jerry
+    age: 17
+    addr: nj
+student2: [{name: zhangsan,age: 13,addr: nj},{name: zhangsan,age: 13,addr: nj},{name: zhangsan,age: 13,addr: nj}]
+#Map
+map:
+  key1: value1
+  key2: value2

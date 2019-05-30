@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wj02.mapper.AccountMapper">
+    <select id="queryAccountList" resultMap="account">
+        select * from my
+    </select>
+    <resultMap id="account" type="com.wj02.domain.Account"></resultMap>
+</mapper>
